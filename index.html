@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indigo Tango | AI That Removes Work</title>
+<meta name="description" content="Indigo Tango builds AI-powered business operations, automation, and business intelligence systems.">
+<style>
+:root {
+  --navy:#050917;
+  --navy2:#081126;
+  --white:#fff;
+  --muted:#b7c0d8;
+  --ink:#081024;
+  --blue:#5d5cff;
+  --cyan:#55d8ff;
+  --border:rgba(255,255,255,.14);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:var(--navy);
+  color:var(--white);
+  line-height:1.45;
+}
+a { color:inherit; text-decoration:none; }
+img { max-width:100%; display:block; }
+.container { width:min(1240px,calc(100% - 48px)); margin:auto; }
+
+.nav {
+  position:sticky;
+  top:0;
+  z-index:10;
+  background:rgba(5,9,23,.9);
+  backdrop-filter:blur(18px);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.nav-inner {
+  min-height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+}
+.brand {
+  display:flex;
+  align-items:center;
+  gap:13px;
+  font-weight:900;
+  letter-spacing:-.04em;
+  font-size:1.25rem;
+}
+.logo {
+  width:42px;
+  height:42px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:6px;
+}
+.logo span {
+  background:linear-gradient(135deg,#3674ff,#7c5cff);
+  border-radius:2px;
+}
+.brand small {
+  display:block;
+  color:var(--muted);
+  font-size:.58rem;
+  letter-spacing:.08em;
+  font-weight:800;
+}
+.nav-links {
+  display:flex;
+  gap:28px;
+  color:rgba(255,255,255,.9);
+  font-weight:700;
+  font-size:.94rem;
+}
+.nav-cta,.btn-primary {
+  background:linear-gradient(135deg,#565cff,#786cff);
+  border:0;
+  color:white;
+  box-shadow:0 12px 28px rgba(86,92,255,.28);
+}
+.nav-cta {
+  padding:13px 20px;
+  border-radius:8px;
+  font-weight:900;
+  white-space:nowrap;
+}
+.mobile-menu { display:none; font-size:1.7rem; }
+
+.hero {
+  min-height:560px;
+  background:
+    linear-gradient(90deg,rgba(5,9,23,.99) 0%,rgba(5,9,23,.92) 31%,rgba(5,9,23,.38) 63%,rgba(5,9,23,.88) 100%),
+    url("assets/hero-mockup.png") center right/cover no-repeat;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+}
+.hero-copy-wrap {
+  max-width:540px;
+  padding:90px 0;
+}
+.eyebrow {
+  color:#6c71ff;
+  text-transform:uppercase;
+  letter-spacing:.18em;
+  font-weight:900;
+  font-size:.78rem;
+  margin-bottom:18px;
+}
+h1 {
+  margin:0 0 22px;
+  font-size:clamp(3.6rem,7vw,6.8rem);
+  line-height:.88;
+  letter-spacing:-.08em;
+}
+.gradient { color:#6b65ff; }
+.hero-sub {
+  font-size:1.35rem;
+  font-weight:900;
+  line-height:1.1;
+  letter-spacing:-.035em;
+  margin:0 0 18px;
+}
+.hero-text {
+  color:rgba(255,255,255,.86);
+  max-width:490px;
+  margin:0;
+}
+.actions {
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  margin-top:28px;
+}
+.btn {
+  min-height:48px;
+  padding:0 22px;
+  border-radius:8px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+  border:1px solid rgba(255,255,255,.25);
+}
+.btn-secondary { background:rgba(0,0,0,.25); }
+
+.trust {
+  background:linear-gradient(180deg,#091028,#071024);
+  border-top:1px solid rgba(255,255,255,.08);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.trust-grid {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+}
+.trust-item {
+  min-height:92px;
+  padding:20px 26px;
+  border-right:1px solid rgba(255,255,255,.13);
+  display:flex;
+  align-items:center;
+  gap:16px;
+}
+.trust-item:last-child { border-right:0; }
+.trust-icon {
+  width:42px;
+  height:42px;
+  border:2px solid #5d5cff;
+  border-radius:12px;
+  display:grid;
+  place-items:center;
+  color:#6d70ff;
+  font-weight:900;
+}
+.trust-item strong { display:block; font-size:1.15rem; }
+.trust-item span { color:var(--muted); font-size:.86rem; }
+
+.section { padding:86px 0; }
+.light { background:#f8f9ff; color:var(--ink); }
+.light p { color:#384159; }
+.problem-grid {
+  display:grid;
+  grid-template-columns:.85fr 1.15fr;
+  gap:56px;
+  align-items:center;
+}
+h2 {
+  margin:0 0 18px;
+  font-size:clamp(2.1rem,4vw,3.7rem);
+  line-height:.98;
+  letter-spacing:-.07em;
+}
+.blue { color:#5757f0; }
+.image-card {
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 22px 60px rgba(7,16,34,.16);
+  border:1px solid rgba(7,16,34,.08);
+  background:white;
+}
+
+.dark-band {
+  background:#061024;
+  padding:22px 0 54px;
+}
+.cards {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px;
+}
+.card {
+  min-height:170px;
+  border:1px solid rgba(255,255,255,.15);
+  border-radius:10px;
+  background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.025));
+  padding:22px;
+  display:grid;
+  grid-template-columns:54px 1fr;
+  gap:15px;
+}
+.card-icon {
+  width:48px;
+  height:48px;
+  border-radius:12px;
+  display:grid;
+  place-items:center;
+  border:1px solid rgba(91,92,255,.45);
+  color:#7771ff;
+  font-size:1.7rem;
+}
+.card h3 { margin:0 0 8px; font-size:1rem; }
+.card p { margin:0; color:var(--muted); font-size:.9rem; }
+
+.itos {
+  background:#f8f9ff;
+  color:var(--ink);
+  text-align:center;
+  padding:52px 0 64px;
+}
+.itos h2 { font-size:clamp(1.7rem,3vw,2.4rem); }
+.process {
+  margin-top:34px;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:24px;
+  text-align:left;
+}
+.step-circle {
+  width:84px;
+  height:84px;
+  border-radius:999px;
+  background:white;
+  border:1px solid rgba(29,39,78,.16);
+  box-shadow:0 12px 30px rgba(7,16,34,.07);
+  display:grid;
+  place-items:center;
+  color:#5156ea;
+  font-size:2rem;
+  margin-bottom:12px;
+}
+.step-num { color:#4f55e8; font-weight:900; }
+.step h3 { margin:4px 0; }
+.step p { margin:0; color:#384159; font-size:.83rem; }
+
+.showcase {
+  background:#071024;
+}
+.showcase-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:36px;
+  align-items:center;
+}
+.showcase p { color:var(--muted); }
+
+.contact {
+  background:#f8f9ff;
+  color:var(--ink);
+}
+.contact-layout {
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  gap:26px;
+  align-items:start;
+}
+.form,.side {
+  background:white;
+  border:1px solid rgba(7,16,34,.08);
+  border-radius:18px;
+  padding:26px;
+  box-shadow:0 18px 50px rgba(7,16,34,.08);
+}
+.form-grid {
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:14px;
+}
+.field { display:grid; gap:8px; }
+.full { grid-column:1/-1; }
+label { color:#4a5369; font-size:.84rem; font-weight:800; }
+input,textarea {
+  width:100%;
+  border:1px solid rgba(7,16,34,.14);
+  border-radius:10px;
+  padding:12px;
+  font:inherit;
+}
+textarea { min-height:120px; resize:vertical; }
+.side p,.side li { color:#384159; }
+
+footer {
+  background:#050917;
+  color:var(--muted);
+  padding:34px 0;
+  border-top:1px solid rgba(255,255,255,.08);
+}
+.footer-inner {
+  display:flex;
+  justify-content:space-between;
+  gap:24px;
+  flex-wrap:wrap;
+  font-size:.9rem;
+}
+
+@media(max-width:1040px) {
+  .nav-links,.nav-cta { display:none; }
+  .mobile-menu { display:block; }
+  .trust-grid { grid-template-columns:repeat(2,1fr); }
+  .trust-item:nth-child(2) { border-right:0; }
+  .cards { grid-template-columns:repeat(2,1fr); }
+  .process { grid-template-columns:repeat(2,1fr); }
+  .problem-grid,.showcase-grid,.contact-layout { grid-template-columns:1fr; }
+  .hero {
+    background:
+      linear-gradient(180deg,rgba(5,9,23,.98),rgba(5,9,23,.74)),
+      url("assets/hero-mockup.png") center/cover no-repeat;
+  }
+}
+@media(max-width:640px) {
+  .container { width:min(100% - 28px,1240px); }
+  .nav-inner { min-height:68px; }
+  .brand { font-size:1rem; }
+  .logo { width:34px; height:34px; gap:5px; }
+  .hero { min-height:auto; }
+  .hero-copy-wrap { padding:56px 0 32px; }
+  h1 { font-size:clamp(3.25rem,17vw,4.45rem); }
+  .hero-sub { font-size:1.08rem; }
+  .actions { display:grid; }
+  .btn { width:100%; }
+  .trust-grid,.cards,.process,.form-grid { grid-template-columns:1fr; }
+  .trust-item { border-right:0; border-bottom:1px solid rgba(255,255,255,.12); }
+  .trust-item:last-child { border-bottom:0; }
+  .section { padding:58px 0; }
+  .dark-band { padding-bottom:44px; }
+  .step { text-align:center; }
+  .step-circle { margin-left:auto; margin-right:auto; }
+}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="#" class="brand">
+      <span class="logo"><span></span><span></span><span></span><span></span></span>
+      <span>INDIGO TANGO<small>AI-POWERED BUSINESS OPERATIONS</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#ai">AI Operations</a>
+      <a href="#solutions">Solutions</a>
+      <a href="#industries">Industries</a>
+      <a href="#resources">Resources</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Schedule a Strategy Session →</a>
+    <div class="mobile-menu">☰</div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container">
+    <div class="hero-copy-wrap">
+      <div class="eyebrow">AI-Powered. Engineered. Automated.</div>
+      <h1>AI That<br><span class="gradient">Removes Work.</span></h1>
+      <p class="hero-sub">Built by senior engineers. Designed for businesses that refuse to waste time.</p>
+      <p class="hero-text">We design AI-powered business operations that eliminate busywork, connect your technology, and help your team accomplish more with the people you already have.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#contact">Schedule an AI Strategy Session →</a>
+        <a class="btn btn-secondary" href="#solutions">See What We Automate ⏵</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust">
+  <div class="container trust-grid">
+    <div class="trust-item"><div class="trust-icon">✓</div><div><strong>23+ Years</strong><span>Engineering Experience</span></div></div>
+    <div class="trust-item"><div class="trust-icon">◎</div><div><strong>Enterprise & SMB</strong><span>Expertise</span></div></div>
+    <div class="trust-item"><div class="trust-icon">AI</div><div><strong>AI-First</strong><span>Business Operations</span></div></div>
+    <div class="trust-item"><div><strong>Microsoft • Google • OpenAI • Claude • n8n</strong><span>Modern automation stack</span></div></div>
+  </div>
+</section>
+
+<section class="section light">
+  <div class="container problem-grid">
+    <div>
+      <h2>Your Business Doesn’t Need More Software.<br><span class="blue">It needs fewer manual tasks.</span></h2>
+      <p>Most businesses already own the tools they need. Microsoft 365. SharePoint. Teams. CRM. Accounting. ERP.</p>
+      <p>The problem isn’t technology. The problem is everything in between.</p>
+      <p>We build intelligent workflows that connect your existing systems, automate repetitive work, and give your employees time back to focus on work that actually matters.</p>
+    </div>
+    <div class="image-card">
+      <img src="assets/homepage-concept.png" alt="AI workflow automation dashboard on a laptop">
+    </div>
+  </div>
+</section>
+
+<section id="solutions" class="dark-band">
+  <div class="container">
+    <div class="eyebrow">What We Build</div>
+    <h2>Business systems that work harder than your team has to.</h2>
+    <div class="cards">
+      <article class="card"><div class="card-icon">🤖</div><div><h3>AI Operations</h3><p>Your digital workforce. AI employees that answer questions, process information, and complete repetitive work.</p></div></article>
+      <article class="card"><div class="card-icon">▦</div><div><h3>Workflow Automation</h3><p>Connect your software, eliminate duplicate work, and automate everyday business processes.</p></div></article>
+      <article class="card"><div class="card-icon">♢</div><div><h3>Managed Technology</h3><p>Security, cloud, Microsoft 365, networking, backup, and support for modern businesses.</p></div></article>
+      <article class="card"><div class="card-icon">▥</div><div><h3>Business Intelligence</h3><p>Dashboards, reporting, KPIs, and operational insights backed by real business data.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="ai" class="itos">
+  <div class="container">
+    <div class="eyebrow">The Indigo Tango Operating System</div>
+    <h2>Our proven process for <span class="blue">real business impact.</span></h2>
+    <div class="process">
+      <div class="step"><div class="step-circle">⌕</div><div class="step-num">01</div><h3>Discover</h3><p>We learn your business, challenges, and goals. No assumptions.</p></div>
+      <div class="step"><div class="step-circle">▥</div><div class="step-num">02</div><h3>Analyze</h3><p>We identify manual work, inefficiencies, and high-impact automation opportunities.</p></div>
+      <div class="step"><div class="step-circle">✎</div><div class="step-num">03</div><h3>Design</h3><p>We design custom AI automations and workflows that fit your business.</p></div>
+      <div class="step"><div class="step-circle">&lt;/&gt;</div><div class="step-num">04</div><h3>Build</h3><p>We build, test, and integrate solutions that work seamlessly.</p></div>
+      <div class="step"><div class="step-circle">↗</div><div class="step-num">05</div><h3>Optimize</h3><p>We monitor, measure, and continuously improve for maximum impact.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section showcase">
+  <div class="container showcase-grid">
+    <div>
+      <div class="eyebrow">Built by Engineers</div>
+      <h2>Not another AI consultant. Not another MSP.</h2>
+      <p>Indigo Tango is built by senior engineers who understand both daily business operations and the technical foundation required to automate them safely.</p>
+      <p>We focus on practical systems, measurable outcomes, and technology that earns its place.</p>
+      <div class="actions"><a class="btn btn-primary" href="#contact">Talk to an Engineer →</a></div>
+    </div>
+    <div class="image-card">
+      <img src="assets/responsive-mockup.png" alt="Responsive Indigo Tango website mockup">
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="container">
+    <div>
+      <div class="eyebrow">Start Here</div>
+      <h2>Let’s find the work holding your business back.</h2>
+      <p>Tell us a little about your business. We’ll identify where AI and automation can create the biggest impact.</p>
+    </div>
+    <div class="contact-layout">
+      <form class="form" action="mailto:hello@indigotango.us" method="post" enctype="text/plain">
+        <div class="form-grid">
+          <div class="field"><label>First Name *</label><input name="First Name" required></div>
+          <div class="field"><label>Last Name *</label><input name="Last Name" required></div>
+          <div class="field"><label>Company *</label><input name="Company" required></div>
+          <div class="field"><label>Business Email *</label><input type="email" name="Business Email" required></div>
+          <div class="field full"><label>What would you like to automate?</label><textarea name="Automation Opportunity" placeholder="Example: customer emails, document processing, sales follow-ups, reporting, data entry, service requests..."></textarea></div>
+          <div class="field full"><button class="btn btn-primary" type="submit">Let’s Find the Opportunity →</button></div>
+        </div>
+      </form>
+      <aside class="side">
+        <h3>What happens next?</h3>
+        <ul>
+          <li>We review your business challenge.</li>
+          <li>A senior engineer reaches out.</li>
+          <li>We identify automation opportunities.</li>
+          <li>You receive practical recommendations.</li>
+        </ul>
+        <p>No pressure. No jargon. No generic AI pitch.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer id="resources">
+  <div class="container footer-inner">
+    <div>© 2026 Indigo Tango. AI-Powered Business Operations.</div>
+    <div>AI Operations • Workflow Automation • Managed Technology • Business Intelligence</div>
+  </div>
+</footer>
+</body>
+</html>
