@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/indigo-tango-website
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: https://indigotango.us
+display_url: https://indigotango.us
+
+collections:
+  - name: "site_files"
+    label: "Website Files"
+    files:
+      - label: "Homepage HTML"
+        name: "homepage"
+        file: "index.html"
+        fields:
+          - label: "HTML"
+            name: "body"
+            widget: "code"
+            default_language: "html"
+            allow_language_selection: false
