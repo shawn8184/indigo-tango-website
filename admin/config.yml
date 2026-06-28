@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: shawn8184/indigo-tango-website
+  name: git-gateway
   branch: main
 
 media_folder: "assets/uploads"
