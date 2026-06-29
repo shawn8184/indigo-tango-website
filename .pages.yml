@@ -1,0 +1,37 @@
+media: assets
+
+content:
+  - name: site
+    label: Site Content
+    type: file
+    path: content/site.yml
+    fields:
+      - name: hero_title
+        label: Hero Title
+        type: string
+      - name: hero_subtitle
+        label: Hero Subtitle
+        type: text
+      - name: primary_cta
+        label: Primary Button Text
+        type: string
+      - name: secondary_cta
+        label: Secondary Button Text
+        type: string
+      - name: services
+        label: Services
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Service Title
+            type: string
+          - name: description
+            label: Description
+            type: text
+      - name: contact_email
+        label: Contact Email
+        type: string
+      - name: contact_phone
+        label: Contact Phone
+        type: string
