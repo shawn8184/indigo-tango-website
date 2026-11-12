@@ -1,0 +1,50 @@
+name: Deploy Firebase Hosting
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "firebase-site/**"
+      - ".github/workflows/firebase-hosting.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: firebase-hosting-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy to Firebase Hosting
+    runs-on: ubuntu-latest
+    environment: production
+    defaults:
+      run:
+        working-directory: firebase-site
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify recovered site
+        run: node scripts/verify-site.mjs
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_INDIGO_TANGO }}
+
+      - name: Install Firebase CLI
+        run: npm install --global firebase-tools@13.29.1
+        working-directory: .
+
+      - name: Deploy Firebase Hosting
+        run: firebase deploy --only hosting:indigo-tango-website --project indigo-tango-website --non-interactive
