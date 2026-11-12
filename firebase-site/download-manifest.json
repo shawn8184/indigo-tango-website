@@ -1,0 +1,672 @@
+{
+  "origin": "https://indigotango.us",
+  "capturedDate": "2026-11-12",
+  "release": "sites/indigo-tango-website/releases/1794343983011000",
+  "version": "sites/indigo-tango-website/versions/e39e72658ebdd481",
+  "files": {
+    "/404.html": {
+      "sha256": "2c76327ae56bacdeed5592e5f0720963762f29a07dcc102acd9a12642d279f78",
+      "bytes": 4130
+    },
+    "/__/firebase/init.js": {
+      "sha256": "360bdeb2a271bc31e8d57dcc33a80840e8a713575e35dcd2e32ea765925a6f14",
+      "bytes": 452
+    },
+    "/__/firebase/init.json": {
+      "sha256": "93c38aedcda55046781dde2caf4f152275010e8faac4c1b044e9497edda58f9d",
+      "bytes": 275
+    },
+    "/about-art.css": {
+      "sha256": "fee1b0f83aa5ed54a068334a589f66b5c976213717a7b0bf9ed8f1a7dabcfeba",
+      "bytes": 2227
+    },
+    "/about-art.js": {
+      "sha256": "c77c37204e754b7f558339a9e5e384491ecd7098c810517a1bf20ad305340376",
+      "bytes": 937
+    },
+    "/about/index.html": {
+      "sha256": "e20399f1a538163e05dbb8d7826a407ca5a82e92030b55ddc33e6b013d2ba1ab",
+      "bytes": 73117
+    },
+    "/app.js": {
+      "sha256": "7bdadfeae626f0b16894434cb59c62740b45c89c10585fb22ea475ff86708c8b",
+      "bytes": 2967
+    },
+    "/assessment/index.html": {
+      "sha256": "4cf3a5802d70e186c48a3c10d7eae697aede178261bdf974ed48cdb8257d8946",
+      "bytes": 11891
+    },
+    "/assets/69cefd6df81149f75959a416_683e777ec0c6f28d9fef6c0d_icon-09.svg": {
+      "sha256": "a05b84c599a6d1230d0c9d4c5ebe9d57ed8d979434fe809d17afde56f8745446",
+      "bytes": 2697
+    },
+    "/assets/69cefd6df81149f75959a43a_683e775de632696509132a9d_icon-07.svg": {
+      "sha256": "5c24694e641ce51154b656fb48a6da3c736607caa2a769e10db15b6bd665402e",
+      "bytes": 3026
+    },
+    "/assets/69cefd6df81149f75959a465_68241ee9cb67214ae1ffdd7c_66adfc7df52614a087060df8_6695f9b0d19374247a3e12bc_667960c99403475828d32ad5_662217953d0d853fb2e8b0f5_cl-icon-13.svg": {
+      "sha256": "220ad9af5f7bccc63f07898c1477c0d7ae187e42f87da1ef456b359f141250d8",
+      "bytes": 1540
+    },
+    "/assets/69cefd6df81149f75959a474_dot-pattern-2.svg": {
+      "sha256": "9f10c16725533698f64ca99001fb5fae3a9a881cb774b887d58150d57de4cb8c",
+      "bytes": 14038
+    },
+    "/assets/69cefd6df81149f75959a485_683e776aba0eb5adc16c5b00_icon-08.svg": {
+      "sha256": "bd3011b623aa54f2eaf3f22285fa125a56b1bebef3dc9caf175c18ab684c7f42",
+      "bytes": 2315
+    },
+    "/assets/69cefd6df81149f75959a486_Mail Icon.svg": {
+      "sha256": "34e96c92fb8085521c079194a0438995662298d365a2213fce21878f512d5a7d",
+      "bytes": 633
+    },
+    "/assets/69cefd6df81149f75959a487_Call.svg": {
+      "sha256": "4335652802c6a726fcfbece6fd17cd1594c1331b0af2d6a9a7ec98663525b38d",
+      "bytes": 1701
+    },
+    "/assets/69cefd6df81149f75959a488_pre title icon.svg": {
+      "sha256": "d6d799c374a46a4cee351a8d7e663d591a48330caa69b781e4f963eb858712e3",
+      "bytes": 1700
+    },
+    "/assets/69cefd6df81149f75959a48d_Green Pre Title Icon.svg": {
+      "sha256": "1d143ecdd1cb1a2929d8a5146827b1c8269acf717185219e4dde3f5b28ecce31",
+      "bytes": 2509
+    },
+    "/assets/69cefd6df81149f75959a48e_icon-3.svg": {
+      "sha256": "6d4b6f01ca39973c214ad0c09b0b1c0f15bdf01221e0b2a557d6c530f1355b4a",
+      "bytes": 1539
+    },
+    "/assets/69cefd6df81149f75959a48f_icon-4.svg": {
+      "sha256": "1e68f48f5ca3b3cae6259bc5b95c326f901bb9a4b7b79754c8a05715f7f1a70d",
+      "bytes": 1029
+    },
+    "/assets/69cefd6df81149f75959a490_icon-11.svg": {
+      "sha256": "942fab7de3743025008251f951d11f8df46d6e805d5efdcffebbb48374215e57",
+      "bytes": 412
+    },
+    "/assets/69cefd6df81149f75959a491_icon-5.svg": {
+      "sha256": "38484ae9a0aa400b7f80bf3f32461369f44a00562bf1cb96756e0a19d710baaa",
+      "bytes": 1129
+    },
+    "/assets/69cefd6df81149f75959a4af_683e774db8e2bd47bb36b2cf_icon-10.svg": {
+      "sha256": "7e37f42b358be84793f9f7f460a733b92d99c8b54d82c9c6cc5475e8ba5c963c",
+      "bytes": 2077
+    },
+    "/assets/69cefd6df81149f75959a4b2_icon-17.svg": {
+      "sha256": "f7e81423f055b1d0be7db4201ca2c890e8b012a8ed0229f7e214fce4dd703065",
+      "bytes": 1356
+    },
+    "/assets/69cefd6df81149f75959a4b7_icon-20.svg": {
+      "sha256": "096f2afab22d3abe42c89c81e72b0e2eaa19f2da040fa91354d7c9d6b4124d6d",
+      "bytes": 3817
+    },
+    "/assets/69cefd6df81149f75959a4b8_icon-23.svg": {
+      "sha256": "9758730b65bce74bfb212407eae31111fbb4114b94e15aa91b05dd7a5e18fdd6",
+      "bytes": 736
+    },
+    "/assets/69cefd6df81149f75959a4bb_icon-24.svg": {
+      "sha256": "4b4bc211bb1d10f3f38bdf3f50fe381cbf182e8311a6d686b38cf3917ca3ecb1",
+      "bytes": 965
+    },
+    "/assets/69cefd6df81149f75959a4be_icon-29.svg": {
+      "sha256": "467809c06422685a50a7c75cd168c8b948bcfed53aeaa3950fb6114883251d15",
+      "bytes": 225
+    },
+    "/assets/69cefd6df81149f75959a4bf_icon-28.svg": {
+      "sha256": "07c1dee70925971b8891522a07badb49c9735dc414205c9be7c4aa1edc5fb0cc",
+      "bytes": 806
+    },
+    "/assets/69cefd6df81149f75959a4cf_68241ee9cb67214ae1ffdd79_66adfc7d015d52f2c6707c84_6695f9b0828aea64f5d662ea_667960c9d080a7a81c5bbad8_662217868744598b8d1887de_cl-icon-12.svg": {
+      "sha256": "458deadd702bcf496ac924c54f6817b66fc3d1807d997b6fdafabbfe02694553",
+      "bytes": 1809
+    },
+    "/assets/69cefd6df81149f75959a4d4_icon-38.svg": {
+      "sha256": "67e4494be34191fe589d6cb6655f7af636d324660aef64178b5bbbd1f5b74df8",
+      "bytes": 909
+    },
+    "/assets/69cefd6df81149f75959a4d6_icon-39.svg": {
+      "sha256": "cdfc631410b4977bb7567d20e9f69c0883799f2f6ec104e99173036c41a83596",
+      "bytes": 1628
+    },
+    "/assets/69cefd6df81149f75959a4d7_icon-37.svg": {
+      "sha256": "ec8a794bb65e006cd56e3d955af56cdce448babadfb5394b20c9111a788505e8",
+      "bytes": 938
+    },
+    "/assets/69cefd6df81149f75959a4d8_icon-41.svg": {
+      "sha256": "b0a7e0c0a833a63f66408275caae5dfbb4b1b7cb95f8bc1966c759c1111343c8",
+      "bytes": 447
+    },
+    "/assets/69cefd6df81149f75959a4d9_icon-40.svg": {
+      "sha256": "f18a71b04bc4705000eaee6d4a3ccf92d34d5821de87b68f385161f1dac2e502",
+      "bytes": 2263
+    },
+    "/assets/69cefd6df81149f75959a4fa_683e7714f989672aaa755163_icon-06.svg": {
+      "sha256": "d2de0bcf90228ddcc8ce0dafce326b1dcd53548b4aaa82e3645747c06468003b",
+      "bytes": 2701
+    },
+    "/assets/69cefd6df81149f75959a505_shield-lock.svg": {
+      "sha256": "23df942e179f2827e9846e530a575df33f4044e8a53acac1c15e1e1f98f2e5d1",
+      "bytes": 1776
+    },
+    "/assets/69cefd6df81149f75959a506_vector.svg": {
+      "sha256": "8886d2e9b9a04442e85a2c9bce1ef7b18ad48808060c57763d2fa3bef83bd8c8",
+      "bytes": 1622
+    },
+    "/assets/69cefd6df81149f75959a507_step image.svg": {
+      "sha256": "14dfbaea1cde3d666b7e390576d9cc01b74cd1c6f5e54ab82b4400600ab37873",
+      "bytes": 63237
+    },
+    "/assets/69cefd6df81149f75959a518_68241ee9cb67214ae1ffdd7a_66adfc7c6dd158aaa45007b3_6695f9b24feca9b84a11aa4b_667960c89feefea5994fec1d_6622173c3d0d853fb2e86187_cl-icon-08.svg": {
+      "sha256": "e2df6e466410b7e798afb25733a35dbf181a54b6ccf9350a88c862e73b5ad2d9",
+      "bytes": 563
+    },
+    "/assets/69cefd6df81149f75959a51b_others.svg": {
+      "sha256": "bfb00400c1478187675e7f937bdca2b274f1a8c42e232d6785ca68f8dc07e191",
+      "bytes": 6587
+    },
+    "/assets/69cefd6df81149f75959a51c_Feature Image 5.webp": {
+      "sha256": "23115644fdd9aa2a449b7154770c20730eb93b15208eccfd1f4d25d45fa24229",
+      "bytes": 18580
+    },
+    "/assets/69cefd6df81149f75959a51d_Feature Image 4.webp": {
+      "sha256": "945c6ac11eb62ead8faca134e6ad3f181a90b9b2846c2b96fdf0dd65af5e2b77",
+      "bytes": 29376
+    },
+    "/assets/69cefd6df81149f75959a53d_683e7507a879161e5d74fc11_icon-03.svg": {
+      "sha256": "2f4328a027d431224117d2b2a712a6a24058dc04e4fe12e6a3d32b8d0de4b4e4",
+      "bytes": 951
+    },
+    "/assets/69cefd6df81149f75959a569_683e751d9b63a6f1f0ce230f_icon-05.svg": {
+      "sha256": "cf8904753ef20014c5b28172ec418ae3854dcb008a29213064780a80cd80800c",
+      "bytes": 1227
+    },
+    "/assets/69cefd6df81149f75959a588_68241ee9cb67214ae1ffdd7d_66adfc7c10e618278612951d_6695f9b2addf1922b1da8419_667960c7c9b32bdee3cbc917_662216c310b8b56d1119c01a_cl-icon-03.svg": {
+      "sha256": "30fd275d24a6cff4fa24d361e2015082173866cf49883550e139c65cc26852ae",
+      "bytes": 1166
+    },
+    "/assets/69cefd6df81149f75959a58f_Feature image 1.webp": {
+      "sha256": "7e0281e95a6dfb9c164e97cccf988a3e48c3fe278781f2aba86172e0241bc866",
+      "bytes": 3164
+    },
+    "/assets/69cefd6df81149f75959a590_01 1.svg": {
+      "sha256": "80bca35ef31dda59d2d184ae9c8013c9c414e420674a2bb0d7ce01c1fdfec2b0",
+      "bytes": 19266
+    },
+    "/assets/69cefd6df81149f75959a591_Feature image.webp": {
+      "sha256": "ec5c5498641a549df02b3403bc6980e2aaeaba1a9c82b919a1a11c08ae8d6ec6",
+      "bytes": 17018
+    },
+    "/assets/69cefd6df81149f75959a592_Hero Image 1.png": {
+      "sha256": "cb43ba502ccebba2a3825b46e3eb1b3d890d053b5605f76e2e10d0d6bb34c983",
+      "bytes": 1173
+    },
+    "/assets/69cefd6df81149f75959a593_Hero Image 2.png": {
+      "sha256": "4ab9ad29412a40216c5d83884c6d2b10add50bf7a201a027cea239013036aa54",
+      "bytes": 504
+    },
+    "/assets/69cefd6df81149f75959a594_Hero Image 7.png": {
+      "sha256": "34596fd72b83439a27235abbd4436d4e67d9e9f4c3a3ae2f36c0192376fb20c9",
+      "bytes": 20699
+    },
+    "/assets/69cefd6df81149f75959a595_Hero Image 3.png": {
+      "sha256": "8547000f7a1e5390cf8db5340fde1b95ae4a88ef97193bdb61b3748ca241f8ed",
+      "bytes": 6518
+    },
+    "/assets/69cefd6df81149f75959a596_Hero Image 4.png": {
+      "sha256": "975d680afa54138342466986b410288bf5188071fbef72a97f2bd37f72b618cd",
+      "bytes": 9164
+    },
+    "/assets/69cefd6df81149f75959a597_Hero Image 5.webp": {
+      "sha256": "11996dc62aa30ac01875f14a24e4dce37180194884b1b6361a33ba3686437a20",
+      "bytes": 1652
+    },
+    "/assets/69cefd6df81149f75959a598_Hero Image 6.png": {
+      "sha256": "b2cf617e46d0cc761b2e664a2addcf77570865d215182019594361d5ded57500",
+      "bytes": 7330
+    },
+    "/assets/69cefd6df81149f75959a5ae_68241ee9cb67214ae1ffdd78_66adfc7d576388c0b525c7e1_6695f9b1182317f0ef1dfa00_667960c85705f32df99c66bd_662216f9f863d43997151872_cl-icon-07.svg": {
+      "sha256": "01e15b5b8cd1d43abb4a3656d6363a41c19e15f2e436f23ab1909484f237f02f",
+      "bytes": 2634
+    },
+    "/assets/69cefd6df81149f75959a5b1_01.svg": {
+      "sha256": "5367ab0ed85e19dbf82f70cd682a3766796954e9cb0901da1201ee08e99d3346",
+      "bytes": 490
+    },
+    "/assets/69cefd6df81149f75959a5b2_02.svg": {
+      "sha256": "c034077a34ee3f18f0497c2d275c2b1da31bfbb01b505b1119a5da384015f844",
+      "bytes": 7049
+    },
+    "/assets/69cefd6df81149f75959a5b3_03.svg": {
+      "sha256": "25c6d3ff361f44de4bab99636f0b4e5d99207c3dbbdb8050a306a83c0ca708d8",
+      "bytes": 9960
+    },
+    "/assets/69cefd6df81149f75959a5b4_Line 3.png": {
+      "sha256": "5f754892f772b689787ade27e2383536567fc08ece3f87ab37755f535e84f78a",
+      "bytes": 296
+    },
+    "/assets/69cefd6df81149f75959a5b5_line 2.webp": {
+      "sha256": "65f7a0dfec650ab4ec6d12bae4fb8ce894147a04b583b12fc12615e5d33655a4",
+      "bytes": 280
+    },
+    "/assets/69cefd6df81149f75959a5b6_Line.webp": {
+      "sha256": "ad0b825cdc4d5e1db89548d0b4687f79f503c7654ec787a84f393e5b368361b3",
+      "bytes": 558
+    },
+    "/assets/69cefd6df81149f75959a5b7_icon 1.svg": {
+      "sha256": "e5752bd1e10eaac9aa3580bc1dcbedbb0346e66bce403a0fb969cc05a3c71d9f",
+      "bytes": 599
+    },
+    "/assets/69cefd6df81149f75959a5b8_icon 2.svg": {
+      "sha256": "621f29eda9175eba46925ec12dca694af0775f454195db209ecd28a70790145a",
+      "bytes": 586
+    },
+    "/assets/69cefd6df81149f75959a5b9_icon 3.svg": {
+      "sha256": "2b6c0c56e5c646feac3d896e7fb0bef48ecfc5a263bc689190f7e7574c7a2a76",
+      "bytes": 438
+    },
+    "/assets/69cefd6df81149f75959a5d5_683e7514a879161e5d7501ee_icon-04.svg": {
+      "sha256": "98c4e86a02a5a558bd763ff89a11aaae056aff566e60915c76b048c051d883ee",
+      "bytes": 1515
+    },
+    "/assets/69cefd6df81149f75959a5d6_Feature image.webp": {
+      "sha256": "fa6bb54afef7f32ed0e3ef76a02a824417372dde55a6758e2bd8c5b611f807a4",
+      "bytes": 41750
+    },
+    "/assets/69cefd6df81149f75959a5dc_Feature Icon 2.svg": {
+      "sha256": "2b495d4a97e02f910042481312b73e4fc23b991c17c4ea6fbd377aea8b4e0e3b",
+      "bytes": 1032
+    },
+    "/assets/69cefd6df81149f75959a5dd_Feature Icon 1.svg": {
+      "sha256": "5907e2778717e3fdf7d54623ff75f0fe2ac68ce2db1964d20d88e1bc309114d7",
+      "bytes": 1908
+    },
+    "/assets/69cefd6df81149f75959a5de_Feature Icon 3.svg": {
+      "sha256": "cf9998a1461ab73bd5484eff7bd0c483b47c38e508ddbb21323b49b5b34021f0",
+      "bytes": 1737
+    },
+    "/assets/69cefd6df81149f75959a600_683e75bcece3ed7b52cd0fb6_icon-01.svg": {
+      "sha256": "3a319ceea7eacbc798427c715b6d00a6d67dd23ecd37b2641021a1815af995d6",
+      "bytes": 1183
+    },
+    "/assets/69cefd6df81149f75959a61a_683e75c51c40b8c7191c5cae_icon-02.svg": {
+      "sha256": "27f004f123f00a68e95bef1239ff9fbf09f4d777f54ad39748917e4dd1e5e401",
+      "bytes": 892
+    },
+    "/assets/69cefd6df81149f75959a63a_Untitled-8.webp": {
+      "sha256": "733f38cd13d5ab36417e6409a5a4a1db02e9cd6f20c66add27259230ccc738db",
+      "bytes": 26180
+    },
+    "/assets/69cefd6df81149f75959a64b_blog-8.webp": {
+      "sha256": "543b603a9be5079871c6bd2c3c589ff9f3531d79fecf33d5230db4973613ef14",
+      "bytes": 44014
+    },
+    "/assets/69cefd6df81149f75959a652_Untitled-7.webp": {
+      "sha256": "ab509e5cdb70cfd1420f574313aeb3dc1b0b4eb927a351c3acf36178c8e8b8ff",
+      "bytes": 18454
+    },
+    "/assets/69cefd6df81149f75959a653_blog-7.webp": {
+      "sha256": "0943f7ed96fc98035eee38eac7b4ec1179972b43ff42cc4b3a98d134e21e2aed",
+      "bytes": 35522
+    },
+    "/assets/69cefd6df81149f75959a654_Untitled-1.webp": {
+      "sha256": "732c07ae77b09b0748de3cc13243e6f13eec0f3f62c00bf7181502b086effbfb",
+      "bytes": 12284
+    },
+    "/assets/69cefd6df81149f75959a655_blog-1.webp": {
+      "sha256": "0a2cb92141d2bdb8f1d8487f42c766f8af31e29dbb8e6707feb4417e06a2b1f6",
+      "bytes": 19138
+    },
+    "/assets/69cefd6df81149f75959a65a_Untitled-4.webp": {
+      "sha256": "3e0d1cd8522cb30ebbd2a2e78d5fe8f931766eb6a1e6316b8848e27b2037a705",
+      "bytes": 191640
+    },
+    "/assets/69cefd6df81149f75959a65b_blog-4.webp": {
+      "sha256": "0cfb6f97e797b3a44e2c5bae73c3488caca462d140d1587f6e5778e7eff8fb61",
+      "bytes": 553426
+    },
+    "/assets/6a3ab3df3bcf47287c0646ce_IndigoTango_Logo.png": {
+      "sha256": "6699afed2925cfacf413997b56ef047afe65b791ccd70820ecb131f0aa523426",
+      "bytes": 16085
+    },
+    "/assets/6a54fc3437e32c3270a7b695_Collaborative tech workspace with branding accents.png": {
+      "sha256": "7b598396887ddb2ad00b14657992ce7b657192cb9168f8708074ffd20283daa6",
+      "bytes": 1569932
+    },
+    "/assets/6ac56649234b1ae10fddf594_6ac565e68113aa95dfe73f66_missed-call-sms-recovery-cover.png": {
+      "sha256": "f318ab69b9e299ee21ac4da2574985dfa9e84efc4c3d2c545b620935eef629e6",
+      "bytes": 29157
+    },
+    "/assets/6ace30a366c296c9aff19c56_6ace30894fccd794ec8ea208_agency-client-reporting-hero.png": {
+      "sha256": "f9c9a4450698209658cba2572ab24adad4f12b6b511359aaea3526e11a50dc23",
+      "bytes": 69187
+    },
+    "/assets/about-connected-operations.svg": {
+      "sha256": "0972d0c25fc01a528ec366211cd76e4bfd02e4c35b54c037d7246b3303cd6bd4",
+      "bytes": 63917
+    },
+    "/assets/brand/apple-touch-icon-v3.png": {
+      "sha256": "a8e8b1a0766d0a942f81b92bb4858b1f1bbc4127de5ef643fa614b2dc048ee9e",
+      "bytes": 11321
+    },
+    "/assets/brand/apple-touch-icon.png": {
+      "sha256": "9b9633d809045085df2956c4e8ad01e05379911193c0ee2087937aa2f78fdee8",
+      "bytes": 10690
+    },
+    "/assets/brand/favicon-16.png": {
+      "sha256": "ad6a2b072dcfa13178f3ac813639b97ed47ea96486d703646cc299292c1de877",
+      "bytes": 643
+    },
+    "/assets/brand/favicon-32.png": {
+      "sha256": "89d64edfb3660774dbb4a3b434c8316932808bd9f5e97845bc5068fe1466b3bf",
+      "bytes": 1384
+    },
+    "/assets/brand/favicon-v3-16.png": {
+      "sha256": "c1a169855cfbab93d415800232f21e50356ea8e26148997af69710ef42b5f61a",
+      "bytes": 438
+    },
+    "/assets/brand/favicon-v3-32.png": {
+      "sha256": "7f24a1d0636e11b0685cd8046cd2c11ace5e330e69d00f020c604eaf421ada90",
+      "bytes": 1375
+    },
+    "/assets/brand/favicon-v3.svg": {
+      "sha256": "158cae421f124953de89cf3566279530d8a99f02723bcc10b5bf32eee54598fd",
+      "bytes": 565
+    },
+    "/assets/brand/favicon.svg": {
+      "sha256": "80a3e51efe3b83e410b2196a1252a622be224b1fd1fc210f3a76f2ecade9e941",
+      "bytes": 1199
+    },
+    "/assets/brand/icon-512.png": {
+      "sha256": "6f6b2295d1d17aa8c0e8c993a001c19bda0fb91d4040915c24ad233ecb8dc74b",
+      "bytes": 50850
+    },
+    "/assets/brand/indigo-tango-fluid-pink-header-20261102.svg": {
+      "sha256": "06135a9945ec43de2d3809fddc24847dd7d7ff19fd4bab325ce4f7db97053efe",
+      "bytes": 4023
+    },
+    "/assets/brand/indigo-tango-logo-dark.svg": {
+      "sha256": "e2957fb12087dec6545e5f3ead8eec6f00f1c01629669fbbfc739bf294e7cdfb",
+      "bytes": 16975
+    },
+    "/assets/brand/indigo-tango-logo-v3-dark.svg": {
+      "sha256": "3b5650dfb15d6e1ff963e6a3a7440b304782f479aa9aa68e301ffab840b6380f",
+      "bytes": 16185
+    },
+    "/assets/brand/indigo-tango-logo-v3-light.svg": {
+      "sha256": "4ee6d7fd4b52ddfe3302ac7d052869966fefdbefee9e89ba5a2c40b4c79669b9",
+      "bytes": 16185
+    },
+    "/assets/brand/indigo-tango-logo-v3-mono.svg": {
+      "sha256": "75a74383a07f273d4f29218a1bc9d0d1fad2fcf214f3733e54d1ec7fc213dd37",
+      "bytes": 16185
+    },
+    "/assets/connected-systems-hero.jpg": {
+      "sha256": "541a779eabdd6370bca1475990c436b226d8f78d83c40f7a56f997890c66f2ed",
+      "bytes": 84050
+    },
+    "/assets/experience-connected-it-20261026.svg": {
+      "sha256": "373237dcb67429d202e2e7481f6b6ca233187b53251f90b99d4a7e759d304aca",
+      "bytes": 4726
+    },
+    "/assets/shawn-wallis-profile-small-20261026.png": {
+      "sha256": "249b8a791f523ae732bd1cfc7341a8059353fbf65f105c28274fa8ad3abad693",
+      "bytes": 16435
+    },
+    "/assets/vendors/claude.svg": {
+      "sha256": "365a70a7eb3956d9b9a96086058ebe04e1dbd8e291a756ad964e8a283fbd6d38",
+      "bytes": 1701
+    },
+    "/assets/vendors/cursor.svg": {
+      "sha256": "0cb51bddf264ae108926fd554c063ef40fc1aac3c5c921ddb39ad184e4e5d0ef",
+      "bytes": 547
+    },
+    "/assets/vendors/huggingface.svg": {
+      "sha256": "5d39d66bb6c9b026d3cb5de7bd9978dad3906570df2aca8f00078a6f8a3d0f5e",
+      "bytes": 3768
+    },
+    "/assets/vendors/midbrain.svg": {
+      "sha256": "9a2ac85b7c92167cba25874f5f827a76ff2b5bacf7b14ec0bd1b72b8e37214e5",
+      "bytes": 3470
+    },
+    "/assets/vendors/openai.svg": {
+      "sha256": "a595df6b423920c67a7f8f73c063e4bfb72d415948097b6cac063a2366bb5186",
+      "bytes": 1687
+    },
+    "/blog/agency-client-reporting-automation/index.html": {
+      "sha256": "cb2fa334657b17a5a656351e766c3d8862ed80d48dd7b2a7b1684920bcc80930",
+      "bytes": 12150
+    },
+    "/blog/automation-that-survives-real-operations/index.html": {
+      "sha256": "56df4469d82b9c16d61cbf604530ae132da8fdeeb92bbe8ab72b8c160bc2015b",
+      "bytes": 8705
+    },
+    "/blog/how-ai-automation-transforms-everyday-workflows/index.html": {
+      "sha256": "fad004f34dee190a28382195e992c7156eb336081490ee469e99fbf332f40d6e",
+      "bytes": 8056
+    },
+    "/blog/index.html": {
+      "sha256": "2feb6561397a84e32cee4c17bb5b793ec3b6b2c5fba8b3955cc9375bb8a7519e",
+      "bytes": 12681
+    },
+    "/blog/missed-call-sms-recovery/index.html": {
+      "sha256": "be89e2b922d7f3687f6d8e4682853bfeb95dddadad85eed244d98ac341f78512",
+      "bytes": 10623
+    },
+    "/blog/predictive-analytics-for-smarter-decisions/index.html": {
+      "sha256": "dabb5d7d0ae8de2202bb0bb8c4d46e3160541e01c3972e7dc2b21d8b1fcca209",
+      "bytes": 7550
+    },
+    "/blog/the-future-of-ai-driven-business-growth/index.html": {
+      "sha256": "842d4de5321e4a3476933125c3bd7d6adcc4de99badaccb8286638a65f7266b7",
+      "bytes": 8051
+    },
+    "/contact-location.css": {
+      "sha256": "a882f54bbeb78f2de0d48620a0d97a7fd525ec02f0525f05bb0bcaa16e6a12de",
+      "bytes": 2452
+    },
+    "/contact/index.html": {
+      "sha256": "9f4df0082aaed5aef85ab10d170cab1a7b75e56d13868e23e4c8932ada20f144",
+      "bytes": 7754
+    },
+    "/engagements/index.html": {
+      "sha256": "6afddce64ad2b5d88a984004de53617724a32310d0b868eb974851e04a42534c",
+      "bytes": 12596
+    },
+    "/experience-layout-20261027.css": {
+      "sha256": "fe544e5fde60e0f3b30f4e6ab65de9561ac1623e4d46c25ceb80a6a3cb919a7f",
+      "bytes": 2975
+    },
+    "/faqs/index.html": {
+      "sha256": "b298279998b2dfbcd0acf66978f94ad6cbf853c8938088a44000bd7dfa41fe13",
+      "bytes": 7954
+    },
+    "/footer.css": {
+      "sha256": "4d4c5423e2c498fc14f244f9253efcfdea87db384521f763341168acf3f53bde",
+      "bytes": 9698
+    },
+    "/home-hero-20261109.js": {
+      "sha256": "fceac17711743b1be700053185c17a9a8444023eb73764cfadff62c8dc82a9a2",
+      "bytes": 29252
+    },
+    "/home-motion-20261109.css": {
+      "sha256": "6af57680b6de96a27b2c4b7d0be5fc9d400e33bc198193049cce0c351b567b20",
+      "bytes": 2691
+    },
+    "/home-motion-20261109.js": {
+      "sha256": "aead6147324330f5e25cb03f9994a5c2939bf0d0cd4ceffab56813b2e9a2f23a",
+      "bytes": 3936
+    },
+    "/home-teal.css": {
+      "sha256": "89d097b8956f868117f07c16aaddd1a7ba2e54998f5933bbd6f9e79ae858e68c",
+      "bytes": 16710
+    },
+    "/home-teal.js": {
+      "sha256": "3e64f623cc38074c5789f6f6619291f19759d39fcbe3975ece9bfe3b5b4d18f5",
+      "bytes": 7028
+    },
+    "/index.html": {
+      "sha256": "e0dad626eb8a260b0b993fb0d1b1691772ebe342a6fac85f391652c9120a36d4",
+      "bytes": 24868
+    },
+    "/industries/index.html": {
+      "sha256": "ec6eb29476ff9d03e10b2c81eedc4bf5e32dbf52a9b94d43d439195636219a7a",
+      "bytes": 9393
+    },
+    "/insights.css": {
+      "sha256": "407573e94e3965d307863e3eef49e2504be9e645133bf591eb9adc7f9033b051",
+      "bytes": 10014
+    },
+    "/insights.js": {
+      "sha256": "4d028a739f28a9ce2089edc685f719e9ab2af14982a88f58870aa3e0ee4f0e9e",
+      "bytes": 1702
+    },
+    "/integration/ai-executive-dashboard/index.html": {
+      "sha256": "9b1c865a6f74c810d5a482fba9673c9171f698f1e5899d8832da24f40bf55a17",
+      "bytes": 8385
+    },
+    "/integration/ai-knowledge-portal/index.html": {
+      "sha256": "345184df1e7ea3f35984d07d625db6ae452cfe5d1cbd756d13b4e39d29f57a8d",
+      "bytes": 8360
+    },
+    "/integration/ai-request-processing/index.html": {
+      "sha256": "2eb958c0d9e386d15221305a5b6a2e3253f0b04a469ad9a3461e342103593edc",
+      "bytes": 6000
+    },
+    "/integration/ai-sales-assistant/index.html": {
+      "sha256": "b41b88ec203b6153331e654543a1a901e4829c064b5836354e3079ad3baf3524",
+      "bytes": 8441
+    },
+    "/integration/ai-service-desk/index.html": {
+      "sha256": "603a94c5cab400916cc686a072e8662c7e000e84d49a62d56aaa1be183d917c8",
+      "bytes": 8404
+    },
+    "/integration/business-operations/index.html": {
+      "sha256": "41900ea24a1d9077a86c0b0a66b3a41708181e594b0a83c1a901735b07a9a0a7",
+      "bytes": 8374
+    },
+    "/integration/construction/index.html": {
+      "sha256": "a764cb12006b5243696858565e23f71ea8eb62899503977ede2a28fa08a5754b",
+      "bytes": 8325
+    },
+    "/integration/crm-automation/index.html": {
+      "sha256": "94d28475c18df8268aeba26c29cdcf3c0ee1aac9cc65be225ad502a78096c32f",
+      "bytes": 8373
+    },
+    "/integration/document-intelligence/index.html": {
+      "sha256": "b968830760743f26d42f37b64555f72c530b77c6ef346d4e9cb2803d9742b8ce",
+      "bytes": 8394
+    },
+    "/integration/healthcare-practices/index.html": {
+      "sha256": "d8cd67dd4d95359f601d0369349daa3e9c18624b7fb9d59f08e309eeef250865",
+      "bytes": 8363
+    },
+    "/integration/invoice-processing/index.html": {
+      "sha256": "8d7c55bde5647da31135691d48e7c679967be2961542ae5a3a1dc3bca2168f31",
+      "bytes": 8343
+    },
+    "/integration/manufacturing/index.html": {
+      "sha256": "0166a19b3a661b91d94201c01faa344e6417b8f61c2db0822acfce3b39c37d82",
+      "bytes": 8393
+    },
+    "/integration/professional-services/index.html": {
+      "sha256": "b3585e3332df18af553f06592c83c6de5c6e64432de6b4620ed683e24ae70c88",
+      "bytes": 8366
+    },
+    "/integration/quote-generation/index.html": {
+      "sha256": "5562b9c58664dd253507b02a8a13fcd186f34b5774174d95060dc232518d052b",
+      "bytes": 8365
+    },
+    "/integration/service-organizations/index.html": {
+      "sha256": "14a7d06b7dac246135c057b55a6067a40bc3a977a5be34d9d81865a56b585ed0",
+      "bytes": 8352
+    },
+    "/integrations-category/business-operations/index.html": {
+      "sha256": "cec1cc0b66f368f322736ae6494f53b9a8d479e7cffab8fb6e54dd7044b5b87e",
+      "bytes": 6082
+    },
+    "/integrations-category/construction/index.html": {
+      "sha256": "b0247506f39e03e2b050ae8194249e8237b200eddb3e7612ac4b90e22ddb10f3",
+      "bytes": 5825
+    },
+    "/integrations-category/healthcare/index.html": {
+      "sha256": "12eab60f529a21a0720309cf880ea3a995aa471ff989b5ce0919a7c0ad9b4e98",
+      "bytes": 5381
+    },
+    "/integrations-category/manufacturing/index.html": {
+      "sha256": "4988ac95e8e4fd03b93e32fe423d5d9a2d312713a10d43e7e8352471c1a0954b",
+      "bytes": 5379
+    },
+    "/integrations-category/professional-services/index.html": {
+      "sha256": "d47de7f8d7413929383ad9eb331c6888d36f43a4b00b02b365031d231a3fddca",
+      "bytes": 6094
+    },
+    "/integrations-category/service-organizations/index.html": {
+      "sha256": "8c13501c777831e334b6864e052babd7afbbb42bd9d9cad820df52dd96839823",
+      "bytes": 5614
+    },
+    "/privacy-policy/index.html": {
+      "sha256": "5465fd5940f56aeac75ad8dc7872912e0b5644aa5953f1d94ec5409fb4f1b3e9",
+      "bytes": 6557
+    },
+    "/profile-photo-20261026-v2.css": {
+      "sha256": "087b8627df81f2c41dbf471963078226077e653ed6888ef5be55cac6b5b29c33",
+      "bytes": 3414
+    },
+    "/robots.txt": {
+      "sha256": "6b762bfc8c0e89268e36ec1a926c8712b27b14a7d242d04d71e65829872a674a",
+      "bytes": 67
+    },
+    "/schedule-assessment/index.html": {
+      "sha256": "e4cf7fe1b0bf5134d8d248461e4f513a69dd2cbc2abfad2caae4321ff60078e0",
+      "bytes": 6372
+    },
+    "/services.css": {
+      "sha256": "29df5f590fb8e402f407d6553603850035f4341a152a6b5172f0f071e9e36319",
+      "bytes": 24515
+    },
+    "/services.js": {
+      "sha256": "66422549d7c9b35d279d751835c58db21d9125406594450930dc9f093693f128",
+      "bytes": 4907
+    },
+    "/services/index.html": {
+      "sha256": "5eb9d91ba8eb0e3bec2e2a70cb788cdfe2d6af1a1ff8626ca20bc50b0c5a8159",
+      "bytes": 23532
+    },
+    "/site-motion-20261026.css": {
+      "sha256": "6dda11770b1d7792cfb868ad57a59c643eb30fdb48ae56deac44665812912dde",
+      "bytes": 3558
+    },
+    "/site-motion-20261026.js": {
+      "sha256": "f0acd163e5c71d00eabb827496859a609f96a6f45998edaffb95071c4fd7efdd",
+      "bytes": 5024
+    },
+    "/site-teal.css": {
+      "sha256": "8d7fc547c5d2d0d760dc6299b4f85d7c73a1afdb5b70cbbeb765cc85e5520b0c",
+      "bytes": 8873
+    },
+    "/sitemap.xml": {
+      "sha256": "5e593c9d13c725f291b1042c2bb844ec02f83796b644416224b6a66803550662",
+      "bytes": 2845
+    },
+    "/style.css": {
+      "sha256": "7551870e859da2b73acfcc6a9fb1f7bc1b7e40b149ec412917ae06791451403a",
+      "bytes": 36983
+    },
+    "/tools-row.css": {
+      "sha256": "dcadbba5475fd96b0eef52f1e54480254fa06748d52f40a9ef0d0e99bcf2cfba",
+      "bytes": 3939
+    },
+    "/tools-row.js": {
+      "sha256": "eb602265add47524291a42a67978a71dbced0c179a2fd4e598c9a9f218d384a7",
+      "bytes": 691
+    }
+  },
+  "hostingInventoryFiles": 165,
+  "unrecoveredFiles": [
+    {
+      "path": "/pricing/index.html",
+      "reason": "Inactive legacy source is hidden by the live /pricing redirect. It was not substituted with the engagements page."
+    }
+  ],
+  "authoritativeFirebaseInventoryPending": false
+}

@@ -1,0 +1,9 @@
+{
+  "name": "indigo-tango-firebase-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recovered live Indigo Tango static website",
+  "scripts": {
+    "check": "node scripts/verify-site.mjs"
+  }
+}
