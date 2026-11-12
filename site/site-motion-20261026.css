@@ -1,0 +1,33 @@
+/* Indigo Tango: small, finite movements; content stays visible without JavaScript. */
+.teal-home.home-motion .home-reveal:not(.in-view),.motion-ready .scroll-reveal:not(.is-visible){opacity:1;transform:none}
+.motion-surface{position:relative;isolation:isolate;transition:translate .28s ease,border-color .28s ease,box-shadow .28s ease}
+.motion-glint{position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:2;opacity:0;clip-path:inset(0 round 8px);background:radial-gradient(260px circle at var(--light-x,50%) var(--light-y,50%),#55e8ee16,transparent 76%);transition:opacity .3s ease}
+.motion-surface:focus-within .motion-glint{opacity:1}
+.motion-surface:focus-visible{outline:2px solid #72e1da;outline-offset:5px}
+.motion-visual{position:relative;transition:transform .45s cubic-bezier(.2,.7,.2,1),filter .45s ease;transform-origin:50% 50%;will-change:auto}
+.motion-heading-accent{display:flex;align-items:center;gap:6px;width:140px;height:13px;margin:20px 0 25px;pointer-events:none}
+.motion-heading-accent i{height:2px;display:block;border-radius:5px;background:#08bac7}
+.motion-heading-accent i:first-child{width:62px;background:linear-gradient(90deg,#8df0d6,#08bac7)}
+.motion-heading-accent i:nth-child(2){width:25px;opacity:.7}.motion-heading-accent i:nth-child(3){width:12px;opacity:.45}.motion-heading-accent i:last-child{width:5px;opacity:.25}
+.document:has(.motion-heading-accent){background-image:radial-gradient(ellipse at 100% 0,#0ac4d109,transparent 48%)}
+.footer-conversation>span,.button>span,.text-link .arrow{transition:transform .25s ease,background-color .25s ease}
+a.button:focus-visible>span,.footer-conversation:focus-visible>span{transform:rotate(-7deg) translate(2px,-2px)}
+.motion-enhanced .footer-invitation{position:relative;isolation:isolate}
+.motion-enhanced .footer-invitation::before{content:"";position:absolute;inset:-15px -20px;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 78% 46%,#00c2d112,transparent 65%);opacity:.45;transition:opacity .4s ease}
+.motion-enhanced .footer-invitation:focus-within::before{opacity:1}
+@media(hover:hover) and (pointer:fine){
+ .motion-enhanced .motion-surface:hover{translate:0 -5px;border-color:#36a8b1;box-shadow:0 14px 35px -24px #0bc4d166}
+ .motion-enhanced .motion-surface:hover .motion-glint{opacity:1}
+ .motion-enhanced .motion-visual:hover{transform:perspective(1000px) rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg)) translateY(-3px);filter:drop-shadow(0 12px 24px #00c2d114)}
+ .motion-enhanced .about-grid figure:hover img{filter:saturate(.8)}
+ .motion-enhanced .footer-invitation:hover::before{opacity:1}
+ .motion-enhanced a.button:hover>span,.motion-enhanced .footer-conversation:hover>span{transform:rotate(-7deg) translate(2px,-2px)}
+ .motion-enhanced .editorial-card .editorial-image img,.motion-enhanced .insights-feature .featured-image img{transition:scale .5s ease}
+ .motion-enhanced .editorial-card:hover .editorial-image img,.motion-enhanced .insights-feature:hover .featured-image img{scale:1.035}
+}
+@media(prefers-reduced-motion:reduce){
+ .motion-surface,.motion-visual,.motion-glint,.footer-conversation>span,.button>span{transition:none!important;translate:none!important;transform:none!important}
+ .motion-glint{display:none}.motion-heading-accent i{animation:none!important}
+ .motion-enhanced .editorial-card .editorial-image img,.motion-enhanced .insights-feature .featured-image img{scale:1!important;transition:none!important}
+}
+@media(forced-colors:active){.motion-glint,.motion-heading-accent{display:none}}

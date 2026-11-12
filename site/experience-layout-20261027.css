@@ -1,0 +1,39 @@
+/* Keep the experience copy and profile card on the same visual grid. */
+.teal-home .about-section{max-width:1150px;margin-inline:auto;padding-top:96px}
+.teal-home .about-section>.eyebrow{margin-bottom:26px}
+.teal-home .about-section .about-grid{grid-template-columns:minmax(0,1fr) 490px;align-items:start;gap:60px}
+.teal-home .about-section .about-grid>div{min-width:0}
+.teal-home .about-section .about-grid h2{font-size:clamp(34px,3.5vw,52px);line-height:1.12;margin:0 0 24px;letter-spacing:-.045em;text-wrap:balance}
+.teal-home .about-section .about-grid p{max-width:none;font-size:15px;line-height:1.75;margin:0 0 20px;text-wrap:pretty}
+.teal-home .about-section .about-grid .button{margin-top:8px}
+.teal-home .about-section .about-grid .founder-portrait{width:100%;max-width:none;justify-self:stretch;margin:0;align-self:start}
+.teal-home .about-section .founder-profile-link{min-height:340px;padding:28px;gap:28px}
+.teal-home .about-section .founder-profile-person{padding:20px 18px;gap:22px}
+.teal-home .about-section .founder-profile-name{font-size:29px;line-height:1.15}
+.teal-home .about-section .founder-profile-bottom{align-items:center}
+.teal-home .about-section .founder-profile-expertise{line-height:1.6}
+.teal-home .about-section .founder-portrait figcaption{font-size:11px;line-height:1.6;margin-top:12px;text-wrap:pretty}
+@media(max-width:1100px){
+ .teal-home .about-section .about-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px}
+ .teal-home .about-section .founder-profile-link{padding:24px}
+ .teal-home .about-section .founder-profile-person{padding:19px 15px;gap:18px}
+ .teal-home .about-section .founder-profile-name{font-size:26px}
+}
+@media(max-width:850px){
+ .teal-home .about-section{padding-top:80px}
+ .teal-home .about-section .about-grid{grid-template-columns:1fr;gap:32px}
+ .teal-home .about-section .about-grid>div{max-width:640px}
+ .teal-home .about-section .about-grid .founder-portrait{max-width:490px;justify-self:start}
+ .teal-home .about-section .about-grid h2{font-size:clamp(34px,5.5vw,44px)}
+}
+@media(max-width:500px){
+ .teal-home .about-section{padding-top:72px}
+ .teal-home .about-section>.eyebrow{margin-bottom:22px}
+ .teal-home .about-section .about-grid h2{font-size:34px;line-height:1.15;margin-bottom:22px}
+ .teal-home .about-section .about-grid p{font-size:14px;line-height:1.8;margin-bottom:18px}
+ .teal-home .about-section .founder-profile-link{padding:22px;min-height:300px;gap:26px}
+ .teal-home .about-section .founder-profile-person{gap:16px;padding:18px 13px}
+ .teal-home .about-section .founder-profile-name{font-size:24px}
+ .teal-home .about-section .founder-portrait figcaption{font-size:10px}
+}
+@media(max-width:360px){.teal-home .about-section .founder-profile-person{gap:13px;padding-inline:10px}.teal-home .about-section .founder-profile-person>img{width:58px;height:58px}.teal-home .about-section .founder-profile-name{font-size:22px}.teal-home .about-section .founder-profile-link{padding:19px}}
