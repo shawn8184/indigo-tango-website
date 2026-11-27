@@ -35,6 +35,8 @@ npx firebase-tools login
 npx firebase-tools deploy --only hosting --project indigo-tango-website
 ```
 
+**Share tags:** do not deploy this Nov 12 `public/` folder over the live 24 Nov site. Overlay `../hosting-patches/` onto the last-deployed public tree, including `public/assets/og/indigo-tango-share-1200x630.png`. Steps: [../FIREBASE-DEPLOY.md](../FIREBASE-DEPLOY.md).
+
 This backup does not configure automatic deployments, add Firebase credentials to GitHub, change DNS, or deploy the site. Keep credentials and `.firebase/` out of version control.
 
 ## Forms and external services
